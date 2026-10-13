@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon premier tableau</title>
+</head>
+<body>
+
+<table border="1" cellpadding="6" cellspacing="6"
+       style="margin: auto; width: 80%; height: 350px; font-size: 18px;">
+
+    <tr>
+        <th colspan="3"
+            style="background-color: #00cc88; color: white; text-align: center;">
+            Cette cellule occupe toute la largeur du tableau.
+            Sa couleur est verte
+        </th>
+    </tr>
+
+    <tr>
+        <td width="32%"
+            style="text-align: left; background-color: #cceeee;">
+            alignement à gauche
+        </td>
+
+        <td width="26%"
+            style="text-align: center; background-color: #cceeee;">
+            texte centré
+        </td>
+
+        <td width="42%"
+            style="text-align: right; background-color: #cceeee;">
+            alignement à droite
+        </td>
+    </tr>
+
+    <tr>
+        <td rowspan="2"
+            style="text-align: center; background-color: #3366aa; color: white;">
+            Cette cellule occupe<br>deux lignes
+        </td>
+
+        <td style="text-align: left; background-color: #cceeee; color: red;">
+            écrire en rouge
+        </td>
+
+        <td style="background-color: #cceeee;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="text-align: left; background-color: #cceeee;">
+            Je ne définis que
+        </td>
+
+        <td style="text-align: left; background-color: #cceeee;">
+            deux cellules sur cette lignes
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2"
+            style="text-align: left; background-color: #cceeee;">
+            fusion de deux cellules
+        </td>
+
+        <td style="background-color: #ffff66;">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3"
+            style="text-align: center; background-color: #cceeee; color: #6688aa;">
+            Mon premier tableau
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
