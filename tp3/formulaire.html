@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Les éléments de saisie</title>
+</head>
+
+<!-- bgcolor = couleur de fond de la page (bleu clair) -->
+<body style="background-color: #87CEEB;" >
+
+  <h1>Les éléments de saisie</h1>
+
+  <!-- 1er formulaire -->
+  <form>
+    <fieldset>
+      <legend>1er formulaire</legend>
+
+      <!-- Un tableau sans bordure sert à aligner les champs -->
+      <table>
+        <tr>
+          <td>Date :</td>
+          <td><input type="date" size="30"></td>
+        </tr>
+        <tr>
+          <td>Heure :</td>
+          <td><input type="time"></td>
+        </tr>
+        <tr>
+          <td>Date et heure :</td>
+          <td><input type="datetime-local" placeholder="Saisir une date et heure"></td>
+        </tr>
+        <tr>
+          <td>Mois :</td>
+          <td><input type="month"></td>
+        </tr>
+        <tr>
+          <td>Semaine :</td>
+          <td><input type="week"></td>
+        </tr>
+      </table>
+    </fieldset>
+    <input type="submit" value="Envoyez">
+  </form>
+
+  <br>
+
+  <!-- 2eme formulaire -->
+  <form>
+    <fieldset>
+      <legend>2eme formulaire</legend>
+
+      <table>
+        <tr>
+          <td>Salaire idéal :</td>
+          <td><input type="number" value="1500"></td>
+        </tr>
+        <tr>
+          <td>État de bonheur actuel :</td>
+          <td><input type="range"></td>
+        </tr>
+        <tr>
+          <td>Num Téléphone :</td>
+          <td><input type="tel" size="30" placeholder="saisir un num de telephone"></td>
+        </tr>
+        <tr>
+          <td>Adresse Email :</td>
+          <td><input type="email" size="30" placeholder="Saisir une @ email"></td>
+        </tr>
+        <tr>
+          <td>Site Web :</td>
+          <td><input type="url" size="30" placeholder="Saisir une URL"></td>
+        </tr>
+        <tr>
+          <td>Couleur favorite :</td>
+          <td><input type="color" value="#222222"></td>
+        </tr>
+        <tr>
+          <td>Chaîne de recherche :</td>
+          <td><input type="search" size="30" placeholder="Saisir une chaîne de recherche"></td>
+        </tr>
+      </table>
+
+      <input type="submit" value="Envoyez">
+    </fieldset>
+  </form>
+
+</body>
+</html>

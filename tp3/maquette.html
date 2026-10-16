@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Maquette d'une page</title>
+</head>
+<body>
+
+  <!-- 1 : l'en-tête de la page -->
+  <header style="border: 3px solid black; text-align: center;">
+    <h1>Titre de la page</h1>
+  </header>
+
+  <!-- 2 : le menu de navigation, à gauche (float: left) -->
+  <nav style="float: left; width: 25%; height: 480px; background-color: lightgray;">
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">Actualités</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 3 : la section à droite (float: right) -->
+  <section style="float: right; width: 73%;">
+
+    <!-- 5 : premier article -->
+    <article style="background-color: darkgray; border: 3px solid black; margin-bottom: 10px;">
+      <!-- 6 : l'en-tête de l'article -->
+      <header style="background-color: white; border: 3px solid black; margin: 8px;">
+        <h2>Titre de l'article 1</h2>
+      </header>
+      <p>Contenu de l'article 1.</p>
+    </article>
+
+    <!-- 5 : deuxième article -->
+    <article style="background-color: darkgray; border: 3px solid black; margin-bottom: 10px;">
+      <header style="background-color: white; border: 3px solid black; margin: 8px;">
+        <h2>Titre de l'article 2</h2>
+      </header>
+      <p>Contenu de l'article 2.</p>
+    </article>
+
+    <!-- 5 : troisième article -->
+    <article style="background-color: darkgray; border: 3px solid black; margin-bottom: 10px;">
+      <header style="background-color: white; border: 3px solid black; margin: 8px;">
+        <h2>Titre de l'article 3</h2>
+      </header>
+      <p>Contenu de l'article 3.</p>
+    </article>
+
+  </section>
+
+  <!-- 4 : le pied de page (clear: both = se place sous nav et section) -->
+  <footer style="clear: both; border: 3px solid black; text-align: center;">
+    <p>Pied de page</p>
+  </footer>
+
+</body>
+</html>

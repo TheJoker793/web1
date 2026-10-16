@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Client</title>
+</head>
+<body>
+
+    <form action="exercice1.html" method="post">
+        <fieldset>
+            <legend>Client</legend>
+
+            <table  cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="civilite">Civilité :</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="radio" name="civilite"
+                            id="mademoiselle" value="Mademoiselle">
+                        <label for="mademoiselle">Mademoiselle</label>
+
+                        <input type="radio" name="civilite"
+                            id="madame" value="Madame">
+                        <label for="madame">Madame</label>
+
+                        <input type="radio" name="civilite"
+                            id="monsieur" value="Monsieur" checked>
+                        <label for="monsieur">Monsieur</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nom">Nom/Prénom :</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="nom" id="nom">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="adresse">Adresse :</label>
+                    </td>
+                    <td colspan="2">
+                        <textarea name="adresse" id="adresse"
+                            rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="postal">N° postal / ville :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="postal" id="postal">
+                    </td>
+                    <td>
+                        <select name="ville" id="ville">
+                            <option value="">-- Choisir une ville --</option>
+                            <option value="Ariana">Ariana</option>
+                            <option value="Béja">Béja</option>
+                            <option value="Ben Arous">Ben Arous</option>
+                            <option value="Bizerte" selected>Bizerte</option>
+                            <option value="Gabès">Gabès</option>
+                            <option value="Gafsa">Gafsa</option>
+                            <option value="Jendouba">Jendouba</option>
+                            <option value="Kairouan">Kairouan</option>
+                            <option value="Kasserine">Kasserine</option>
+                            <option value="Kébili">Kébili</option>
+                            <option value="Le Kef">Le Kef</option>
+                            <option value="Mahdia">Mahdia</option>
+                            <option value="La Manouba">La Manouba</option>
+                            <option value="Médenine">Médenine</option>
+                            <option value="Monastir">Monastir</option>
+                            <option value="Nabeul">Nabeul</option>
+                            <option value="Sfax">Sfax</option>
+                            <option value="Sidi Bouzid">Sidi Bouzid</option>
+                            <option value="Siliana">Siliana</option>
+                            <option value="Sousse">Sousse</option>
+                            <option value="Tataouine">Tataouine</option>
+                            <option value="Tozeur">Tozeur</option>
+                            <option value="Tunis">Tunis</option>
+                            <option value="Zaghouan">Zaghouan</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pays">Pays :</label>
+                    </td>
+                    <td colspan="2">
+                        <select name="pays" id="pays">
+                            <option value="Tunisie" selected>Tunisie</option>
+                            <option value="France">France</option>
+                            <option value="Italie">Italie</option>
+                            <option value="Espagne">Espagne</option>
+                            <option value="Grèce">Grèce</option>
+                            <option value="Malte">Malte</option>
+                            <option value="Chypre">Chypre</option>
+                            <option value="Algérie">Algérie</option>
+                            <option value="Maroc">Maroc</option>
+                            <option value="Libye">Libye</option>
+                            <option value="Égypte">Égypte</option>
+                            <option value="Mauritanie">Mauritanie</option>
+                            <option value="Arabie saoudite">Arabie saoudite</option>
+                            <option value="Émirats arabes unis">Émirats arabes unis</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Liban">Liban</option>
+                            <option value="Jordanie">Jordanie</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Plateformes :</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="checkbox" name="plateformes"
+                            id="windows" value="Windows">
+                        <label for="windows">Windows</label>
+
+                        <input type="checkbox" name="plateformes"
+                            id="macintosh" value="Macintosh" checked>
+                        <label for="macintosh">Macintosh</label>
+
+                        <input type="checkbox" name="plateformes"
+                            id="unix" value="Unix">
+                        <label for="unix">Unix</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="application">Application(s) :</label>
+                    </td>
+                    <td colspan="2">
+                        <select name="application" id="application">
+                            <option value="bureautique">Bureautique</option>
+                            <option value="dao">DAO</option>
+                            <option value="stat">Statistiques</option>
+                            <option value="sgbd">SGBD</option>
+                            <option value="internet">Internet</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <button type="submit">Soumettre</button>
+        <button type="reset">Effacer</button>
+    </form>
+
+</body>
+</html>
