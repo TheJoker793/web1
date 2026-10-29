@@ -1,0 +1,6 @@
+h1{text-decoration:underline red wavy 3px}
+h2{text-decoration-line:line-through}
+h3{text-decoration:underline overline}
+a{text-decoration:none}
+
+/* Remarque : Le raccourci `text-decoration` combine ligne, couleur, style et épaisseur. */

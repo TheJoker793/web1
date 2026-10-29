@@ -1,0 +1,7 @@
+body{
+  background-image:url("fond.svg");
+  background-repeat:repeat-x;
+}
+p{margin-top:60px}
+
+/* Remarque : Pour répéter verticalement : `repeat-y`. */

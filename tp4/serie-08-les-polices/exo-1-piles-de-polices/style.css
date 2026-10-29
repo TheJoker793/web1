@@ -1,0 +1,5 @@
+.a{font-family:"Times New Roman",Times,serif}
+.b{font-family:Arial,Helvetica,sans-serif}
+.c{font-family:"Lucida Console","Courier New",monospace}
+
+/* Remarque : Si aucune police n'est installée, le navigateur choisit une police de la famille générique : on évite un rendu imprévisible. */

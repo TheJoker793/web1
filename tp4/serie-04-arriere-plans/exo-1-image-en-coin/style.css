@@ -1,0 +1,7 @@
+body{
+  background-color:lightblue;
+  background-image:url("fond.svg");
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-attachment:fixed;
+}

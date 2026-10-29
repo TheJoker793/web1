@@ -1,0 +1,6 @@
+*{box-sizing:border-box}
+body{background:#e2e8f0;margin:0;padding:30px;font-family:Arial,sans-serif}
+.carte{width:320px;margin:0 auto;background:#fff;border:1px solid #94a3b8;border-radius:12px;padding:20px;text-align:center}
+.carte h1{text-transform:uppercase;color:#0f766e;letter-spacing:2px;border-bottom:3px solid #3b82f6;padding-bottom:8px;font-size:1.3rem}
+.carte p{color:gray;font-size:.9rem}
+.mail{text-decoration:underline}

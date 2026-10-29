@@ -1,0 +1,4 @@
+*{box-sizing:border-box}
+div{width:100%;max-width:600px;margin:0 auto;padding:20px;background:powderblue}
+
+/* Remarque : `margin:0 auto` centre un bloc dont la largeur est définie. */

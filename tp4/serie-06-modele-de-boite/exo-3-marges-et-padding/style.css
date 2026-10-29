@@ -1,0 +1,5 @@
+div{width:300px;border:15px solid green;padding:50px;margin:20px;background:#d1fae5}
+#a{margin:10px 40px;background:#fde68a}
+#b{padding:5px 10px 15px 20px;background:#bfdbfe}
+
+/* Remarque : 4 valeurs : haut, droite, bas, gauche (sens horaire). */

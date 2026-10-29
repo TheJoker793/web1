@@ -1,0 +1,3 @@
+p{margin:30px;padding:5px;border:1px solid black;outline:3px solid red;outline-offset:15px}
+
+/* Remarque : L'outline est **à l'extérieur** de la bordure et n'ajoute aucune taille à l'élément. */

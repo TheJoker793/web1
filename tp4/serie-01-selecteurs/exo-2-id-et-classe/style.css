@@ -1,0 +1,5 @@
+#promo{background-color:yellow}
+.important{font-weight:bold;color:red}
+p.note{font-style:italic}
+
+/* Remarque : `#` pour l'id (unique), `.` pour la classe (réutilisable), `p.note` cible uniquement les <p> de classe note. */

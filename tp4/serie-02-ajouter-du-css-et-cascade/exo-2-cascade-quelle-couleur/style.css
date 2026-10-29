@@ -1,0 +1,4 @@
+h1{color:navy}
+h1{color:orange}
+
+/* Remarque : **Orange** : à sélecteurs égaux, la dernière règle l'emporte. En inversant l'ordre, le titre serait bleu marine. Un style en ligne l'emporterait sur les deux. */

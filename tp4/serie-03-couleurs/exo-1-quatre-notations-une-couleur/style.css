@@ -1,0 +1,7 @@
+div{color:white;padding:8px;margin:4px}
+#a{background-color:red}
+#b{background-color:rgb(255,0,0)}
+#c{background-color:#ff0000}
+#d{background-color:hsl(0,100%,50%)}
+
+/* Remarque : Variante : `#f00` (raccourci HEX à 3 chiffres). */

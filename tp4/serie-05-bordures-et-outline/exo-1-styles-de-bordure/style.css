@@ -1,0 +1,5 @@
+p{margin:8px;padding:6px}
+#p1{border-style:dotted;border-width:3px;border-color:red}
+#p2{border-style:dashed;border-width:2px;border-color:green}
+#p3{border-style:double;border-width:6px;border-color:blue}
+#p4{border:5px solid orange}

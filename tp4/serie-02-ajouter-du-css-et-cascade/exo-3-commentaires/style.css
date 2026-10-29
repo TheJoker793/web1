@@ -1,0 +1,7 @@
+/* Le paragraphe est en vert
+   pour le distinguer du titre */
+p{color:green}
+
+/* h2{color:red} */
+
+/* Remarque : Le `h2` garde son style par défaut car sa règle est entre `/* * /`. */

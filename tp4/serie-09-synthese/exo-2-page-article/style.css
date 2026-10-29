@@ -1,0 +1,6 @@
+*{box-sizing:border-box}
+body{font-family:Verdana,Tahoma,sans-serif;line-height:1.7;margin:0}
+article{max-width:700px;margin:0 auto;padding:20px}
+h1{text-align:center;text-shadow:2px 2px 4px gray}
+.intro{text-align:justify;text-indent:30px}
+.alerte{background:rgba(255,200,0,.25);border-left:5px solid orange;outline:2px dotted orange;outline-offset:3px;padding:10px;margin-top:20px}
