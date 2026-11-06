@@ -1,0 +1,3 @@
+nav ul{list-style:none;margin:0;padding:0}
+nav > ul > li{display:inline-block;vertical-align:top;background:#e0e7ff;padding:6px;margin-right:10px}
+nav li li{display:block;background:#fde68a}

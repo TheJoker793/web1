@@ -1,0 +1,5 @@
+.c{position:relative;height:130px}
+.b{position:absolute;width:100px;height:70px;color:white;font-weight:bold}
+.b1{left:10px;top:10px;background:tomato;z-index:3}
+.b2{left:50px;top:30px;background:steelblue;z-index:2}
+.b3{left:90px;top:50px;background:seagreen;z-index:1}

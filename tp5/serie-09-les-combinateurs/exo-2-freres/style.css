@@ -1,0 +1,2 @@
+div + p{font-weight:bold}
+div ~ p{color:green}

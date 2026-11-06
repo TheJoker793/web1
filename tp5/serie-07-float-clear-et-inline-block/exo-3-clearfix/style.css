@@ -1,0 +1,3 @@
+.zone{border:3px solid #73AD21}
+.zone::after{content:"";clear:both;display:table}
+.box{float:right;width:120px;height:60px;background:#6366f1}

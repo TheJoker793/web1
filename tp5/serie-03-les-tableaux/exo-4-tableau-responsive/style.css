@@ -1,0 +1,3 @@
+.tablecontainer{overflow-x:auto;max-width:300px}
+table{border-collapse:collapse;white-space:nowrap}
+th,td{border:1px solid #999;padding:6px}

@@ -1,0 +1,5 @@
+h1{font-size:1.1rem;margin:4px 0;background:#e0e7ff}
+h1.a{display:none}
+h1.b{visibility:hidden}
+
+/* Remarque : Seul le Titre 3 (`visibility:hidden`) garde sa place : on voit un vide à son emplacement. */

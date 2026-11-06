@@ -1,0 +1,5 @@
+div{margin:10px auto;border:3px solid #73AD21}
+div.ex1{width:500px}
+div.ex2{max-width:500px}
+
+/* Remarque : Avec `width`, le premier bloc dépasse de la fenêtre ; avec `max-width`, le second s'adapte. */

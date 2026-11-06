@@ -1,0 +1,4 @@
+nav{position:sticky;top:0;background:#0f172a}
+nav a{display:inline-block;color:white;text-decoration:none;padding:12px 20px}
+nav a:hover{background:#3b82f6}
+nav a.actif{background:#1d4ed8}
